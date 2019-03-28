@@ -210,3 +210,139 @@ figure:hover figcaption{
     height: 200px;
     vertical-align: top;
 }
+
+/* **************  footer ************** */
+
+.footer {
+    padding: 75px 0 75px;
+    margin: 33px 0;
+}
+
+.footer h2 {
+    color: #000;
+    font-size: 32px;
+    font-family: Oswald,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.footer h2::before {
+    display: block;
+    position: relative;
+    background: #13af01;
+    width: 60px;
+    height: 3px;
+    content: '';
+    left: 50%;
+    margin-left: -30px;
+    margin-bottom: 25px;
+}
+
+.footer .line {
+    border-left: 1px solid #13af01;
+    padding-left: 40px;
+}
+
+.footer h3 {
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    font-size: 18px;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    color: #000;
+    font-family: Raleway,sans-serif;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.footer .dane {
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.footer input[type=text], .footer input[type=email], .footer input[type=tel] {
+    padding: 15px;
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    outline: 0;
+    margin-bottom: 10px;
+    background: #dddedd;
+    border: 1px solid #dddedd;
+    width: 100%;
+    border-radius: 5px;
+    color: #000;
+}
+
+.footer textarea {
+    padding: 15px;
+    height: 120px;
+    margin-top: 1px;
+    outline: 0;
+    background: #dddedd;
+    border: 1px solid #dddedd;
+    width: 100%;
+    font-family: Raleway,sans-serif;
+    font-size: 16px;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+.footer .accept {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .accept  {
+    margin-left: 0;
+}
+
+.footer label {
+    font-size: 10px!important;
+    color: #000;
+    font-family: Dosis,sans-serif;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+    
+.footer .accept span input[type=checkbox] {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: -2px;
+}
+
+.footer input[type=submit] {
+    background: #fff;
+    color: #13af01;
+    border: 2px solid #13af01;
+    font-family: Oswald,sans-serif;
+    text-align: center;
+    padding: 8px 30px;
+    -webkit-transition: all 350ms ease;
+    -moz-transition: all 350ms ease;
+    -ms-transition: all 350ms ease;
+    -otransition: all 350ms ease;
+    transition: all 350ms ease;
+    outline: 0;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 300!important;
+}
+
+.footer input[type=submit]:hover{
+    color: #fff;
+    background: #13af01;
+}
