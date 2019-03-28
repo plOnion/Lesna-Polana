@@ -184,3 +184,29 @@ figure:hover figcaption{
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
+
+/* ******************************************* */
+
+.number {
+    font-family: Raleway,sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.desc {
+    font-size: 28px;
+    font-family: Oswald,sans-serif;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.dev-list-item{
+    text-align: center;
+    color: #fff;
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+    height: 200px;
+    vertical-align: top;
+}
