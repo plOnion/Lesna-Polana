@@ -1,4 +1,5 @@
 body{
+    background: #fff;
     margin: 0;
     font-family: Oswald,sans-serif;
     padding: 0;
@@ -137,6 +138,55 @@ i:hover{
     margin-bottom: 30px;
 }
 
+.head__title-name{
+    font-size: 5rem; 
+    letter-spacing: 20px; 
+    text-shadow: 5px 5px #000;
+}
+
+.head__title-desc{
+    word-spacing: 1rem; 
+    letter-spacing: 5px; 
+    font-size: 2rem; 
+    text-shadow: 4px 4px #000;
+}
+
+.head__title-desc span{
+    font-size: 3rem
+}
+
+.section__bg-home{
+    background: url(img/img2.jpg); 
+    width: 100%; 
+    height: 100vh;
+}
+
+.section__bg-green{
+    background: url(img/green.jpg);
+    height: 700px; 
+}
+
+.section__bg-space{
+    background: url(img/space.jpg);
+    height: 700px;
+}
+
+.section__bg-dev{
+    background: url(img/panorama.jpg);
+    height: 750px; 
+    margin-top: 70px; 
+    padding: 80px 0
+}
+
+.section__bg{
+    background-attachment: fixed; 
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
 /* ************************************** */
 
 figure {
@@ -210,6 +260,168 @@ figure:hover figcaption{
     height: 200px;
     vertical-align: top;
 }
+
+* **************************************************************************************** */
+
+#dinningRoom{
+    width: 30%;
+    height: 18%;
+    position: relative;
+    top: -63%;
+    left: 10%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#dinningRoom:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#livingRoom{
+    width: 22%;
+    height: 25%;
+    position: relative;
+    top: -106%;
+    left: 26%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#livingRoom:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#office{
+    width: 18%;
+    height: 25%;
+    position: relative;
+    top: -151%;
+    left: 48%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#office:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#bathRoom{
+    width: 12%;
+    height: 12%;
+    position: relative;
+    top: -151%;
+    left: 55%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#bathRoom:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#hall{
+    width: 15%;
+    height: 30%;
+    position: relative;
+    top: -163%;
+    left: 40%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#hall:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+#vestibule{
+    width: 13%;
+    height: 11%;
+    position: relative;
+    top: -158%;
+    left: 40%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#vestibule:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#kitchen{
+    width: 14%;
+    height: 15%;
+    position: relative;
+    top: -80%;
+    left: 26%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#kitchen:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#loundry{
+    width: 12%;
+    height: 18%;
+    position: relative;
+    top: -177%;
+    left: 55%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#loundry:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#garage{
+    width: 21%;
+    height: 42%;
+    position: relative;
+    top: -236%;
+    left: 67%;
+    background: rgba(0, 0, 0, 0.01);
+    z-index: 10;
+    display: block;
+}
+
+#garage:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.choice{
+    display: none;
+}
+
+.room_header{
+    margin: 25px;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+.room_surface{
+    font-size: 1.4rem
+}
+
+.room_desc{
+    padding: 15px;
+    text-align: justify;
+}
+@media screen and (min-width: 700px){
+    #dinningRoomDesc, #livingRoomDesc, #kitchenDesc, #bathRoomDesc, #hallDesc, #garageDesc, #loundryDesc, #vestibuleDesc, #officeDesc{
+    display: none;
+}
+.choice{
+    display: block;
+}}
 
 /* **************  footer ************** */
 
